@@ -1,0 +1,16 @@
+Package: Paris2024Colours
+Title: Color Palettes Inspired by Paris 2024 Olympic and Paralympic Games
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maxime",
+           family = "Kuntz",
+           email = "maxime.kuntz75@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2068-904X"))
+Description: Color palettes inspired by Paris 2024 Olympic and Paralympic Games.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+URL: https://github.com/maximekuntz/Paris2024Colours
+BugReports: https://github.com/maximekuntz/Paris2024Colours/issues
