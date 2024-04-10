@@ -2,3 +2,7 @@
 ^\.Rproj\.user$
 ^Paris2024Colours\.Rproj$
 ^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$

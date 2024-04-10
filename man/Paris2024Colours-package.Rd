@@ -12,6 +12,7 @@ Color palettes inspired by Paris 2024 Olympic and Paralympic Games.
 Useful links:
 \itemize{
   \item \url{https://github.com/maximekuntz/Paris2024Colours}
+  \item \url{https://maximekuntz.github.io/Paris2024Colours/}
   \item Report bugs at \url{https://github.com/maximekuntz/Paris2024Colours/issues}
 }
 
