@@ -11,7 +11,7 @@ paris2024_palette(name, n, type = c("discrete", "continuous"))
 \code{OlympicRings}, \code{GamesLook}.}
 
 \item{n}{Number of colours in the palette. Palettes have 2 to 5 colours that
-can e used as a discrete palette. To use more, use a continuous palette.}
+can be used as a discrete palette. To use more, use a continuous palette.}
 
 \item{type}{Usage of palette as "continuous" or "discrete". Continuous usage
 interpolates between colors to create a scale of values. If omitted, function

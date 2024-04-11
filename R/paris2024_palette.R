@@ -3,7 +3,7 @@
 #' @param name Name of the colour palette. Options are \code{Logo},
 #' \code{OlympicRings}, \code{GamesLook}.
 #' @param n Number of colours in the palette. Palettes have 2 to 5 colours that
-#' can e used as a discrete palette. To use more, use a continuous palette.
+#' can be used as a discrete palette. To use more, use a continuous palette.
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage
 #' interpolates between colors to create a scale of values. If omitted, function
 #' assumes continuous if n > length of palette, and discrete if n < length of
