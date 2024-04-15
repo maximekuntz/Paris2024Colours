@@ -3,6 +3,8 @@
 #' @param x A palette
 #' @param ... ...
 #'
+#' @return An image of the palette
+#'
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
 #'

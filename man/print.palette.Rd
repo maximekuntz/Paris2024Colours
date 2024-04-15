@@ -11,6 +11,9 @@
 
 \item{...}{...}
 }
+\value{
+An image of the palette
+}
 \description{
 Palette printer
 }
