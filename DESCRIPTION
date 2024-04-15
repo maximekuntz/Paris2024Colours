@@ -7,7 +7,8 @@ Authors@R:
            email = "maxime.kuntz75@gmail.com",
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2068-904X"))
-Description: Color palettes inspired by Paris 2024 Olympic and Paralympic Games.
+Description: Palettes inspired by Paris 2024 Olympic and Paralympic Games for 
+    data visualizations with R. Length of color palettes is configurable.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

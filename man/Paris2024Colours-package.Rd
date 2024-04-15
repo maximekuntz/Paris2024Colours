@@ -6,7 +6,7 @@
 \alias{Paris2024Colours-package}
 \title{Paris2024Colours: Color Palettes Inspired by Paris 2024 Olympic and Paralympic Games}
 \description{
-Color palettes inspired by Paris 2024 Olympic and Paralympic Games.
+Palettes inspired by Paris 2024 Olympic and Paralympic Games for data visualizations with R. Length of color palettes is configurable.
 }
 \seealso{
 Useful links:
