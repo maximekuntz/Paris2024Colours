@@ -24,3 +24,11 @@ devtools::install_github("maximekuntz/Paris2024Colours")
 ![OlympicRings palette](man/figures/palette_OlympicRings.png)
 
 ![GamesLook palette](man/figures/palette_GamesLook.png)
+
+![Generation2024 palette](man/figures/palette_Generation2024.png)
+
+![Impact2024 palette](man/figures/palette_Impact2024.png)
+
+![TerreDeJeux palette](man/figures/palette_TerreDeJeux.png)
+
+![Tickets palette](man/figures/palette_Tickets.png)

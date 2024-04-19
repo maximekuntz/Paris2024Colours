@@ -1,6 +1,7 @@
 # Paris2024Colours (development version)
 
 * Modify palette GamesLook
+* Add new palettes: Generation2024, Impact2024, TerreDeJeux and Tickets
 
 # Paris2024Colours 0.1.2
 
