@@ -1,34 +1,87 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # Paris2024Colours
 
 <!-- badges: start -->
-[![CRAN status](https://www.r-pkg.org/badges/version/Paris2024Colours)](https://CRAN.R-project.org/package=Paris2024Colours)
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/Paris2024Colours)](https://CRAN.R-project.org/package=Paris2024Colours)
 <!-- badges: end -->
 
 Palettes inspired by Paris 2024 Olympic and Paralympic Games.
 
-This package is inspired by the [`PNWColors`](https://github.com/jakelawlor/PNWColors) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
+This package is inspired by the
+[`PNWColors`](https://github.com/jakelawlor/PNWColors) and
+[`wesanderson`](https://github.com/karthik/wesanderson) packages.
 
 ## Installation
 
-You can install the development version of Paris2024Colours from [GitHub](https://github.com/) with:
+You can install the package from CRAN with:
+
+``` r
+install.packages("Paris2024Colours")
+```
+
+or the development version of Paris2024Colours from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("maximekuntz/Paris2024Colours")
 ```
 
-# Palettes
+## Usage
 
-![Logo palette](man/figures/palette_Logo.png)
+``` r
+library("Paris2024Colours")
 
-![OlympicRings palette](man/figures/palette_OlympicRings.png)
+# See all palettes
+names(paris2024_palettes)
+#> [1] "Logo"           "OlympicRings"   "GamesLook"      "Impact2024"    
+#> [5] "Generation2024" "TerreDeJeux"    "Tickets"
+```
 
-![GamesLook palette](man/figures/palette_GamesLook.png)
+## Palettes
 
-![Generation2024 palette](man/figures/palette_Generation2024.png)
+``` r
+paris2024_palette("Logo")
+```
 
-![Impact2024 palette](man/figures/palette_Impact2024.png)
+<img src="man/figures/README-logo-1.png" width="100%" />
 
-![TerreDeJeux palette](man/figures/palette_TerreDeJeux.png)
+``` r
+paris2024_palette("OlympicRings")
+```
 
-![Tickets palette](man/figures/palette_Tickets.png)
+<img src="man/figures/README-olympic_rings-1.png" width="100%" />
+
+``` r
+paris2024_palette("GamesLook")
+```
+
+<img src="man/figures/README-games_look-1.png" width="100%" />
+
+``` r
+paris2024_palette("Generation2024")
+```
+
+<img src="man/figures/README-generation2024-1.png" width="100%" />
+
+``` r
+paris2024_palette("Impact2024")
+```
+
+<img src="man/figures/README-impact2024-1.png" width="100%" />
+
+``` r
+paris2024_palette("TerreDeJeux")
+```
+
+<img src="man/figures/README-terre_de_jeux-1.png" width="100%" />
+
+``` r
+paris2024_palette("Tickets")
+```
+
+<img src="man/figures/README-tickets-1.png" width="100%" />

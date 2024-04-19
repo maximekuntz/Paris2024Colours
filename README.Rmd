@@ -1,0 +1,77 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Paris2024Colours
+
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/Paris2024Colours)](https://CRAN.R-project.org/package=Paris2024Colours)
+<!-- badges: end -->
+
+Palettes inspired by Paris 2024 Olympic and Paralympic Games.
+
+This package is inspired by the [`PNWColors`](https://github.com/jakelawlor/PNWColors) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
+
+## Installation
+
+You can install the package from CRAN with:
+
+``` r
+install.packages("Paris2024Colours")
+```
+or the development version of Paris2024Colours from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("maximekuntz/Paris2024Colours")
+```
+
+## Usage
+
+```{r see_palettes}
+library("Paris2024Colours")
+
+# See all palettes
+names(paris2024_palettes)
+```
+
+## Palettes
+
+```{r logo}
+paris2024_palette("Logo")
+```
+
+```{r olympic_rings}
+paris2024_palette("OlympicRings")
+```
+
+```{r games_look}
+paris2024_palette("GamesLook")
+```
+
+```{r generation2024}
+paris2024_palette("Generation2024")
+```
+
+```{r impact2024}
+paris2024_palette("Impact2024")
+```
+
+```{r terre_de_jeux}
+paris2024_palette("TerreDeJeux")
+```
+
+```{r tickets}
+paris2024_palette("Tickets")
+```
