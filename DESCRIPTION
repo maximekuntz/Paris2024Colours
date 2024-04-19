@@ -1,6 +1,6 @@
 Package: Paris2024Colours
 Title: Color Palettes Inspired by Paris 2024 Olympic and Paralympic Games
-Version: 0.1.2.9000
+Version: 0.2.0
 Authors@R: 
     person(given = "Maxime",
            family = "Kuntz",
