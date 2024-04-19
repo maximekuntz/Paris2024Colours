@@ -1,7 +1,8 @@
 #' Paris 2024 palette generator
 #'
 #' @param name Name of the colour palette. Options are \code{Logo},
-#' \code{OlympicRings}, \code{GamesLook}.
+#' \code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
+#' \code{Impact2024}, \code{TerreDeJeux} and \code{Tickets}.
 #' @param n Number of colours in the palette. Palettes have 2 to 5 colours that
 #' can be used as a discrete palette. To use more, use a continuous palette.
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage
