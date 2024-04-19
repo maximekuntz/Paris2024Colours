@@ -1,5 +1,7 @@
 # Paris2024Colours (development version)
 
+* Modify palette GamesLook
+
 # Paris2024Colours 0.1.2
 
 * Description fix for CRAN submission
