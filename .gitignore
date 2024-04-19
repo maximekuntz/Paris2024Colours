@@ -7,3 +7,7 @@
 .DS_Store
 .quarto
 docs
+
+# CRAN submission files
+cran-comments.md
+CRAN-SUBMISSION
