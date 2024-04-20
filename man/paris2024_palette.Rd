@@ -19,7 +19,8 @@ interpolates between colors to create a scale of values. If omitted, function
 assumes continuous if n > length of palette, and discrete if n < length of
 palette.}
 
-\item{reverse}{Whether to reverse colour palette (TRUE) or not (FALSE, default).}
+\item{reverse}{Whether to reverse colour palette (TRUE) or not (FALSE,
+default).}
 }
 \value{
 A vector of colours.

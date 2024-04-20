@@ -3,6 +3,7 @@
 * Modify palette GamesLook
 * Add new palettes: Generation2024, Impact2024, TerreDeJeux, Tickets and Flame.
 * Add option to reverse colour palette
+* Add colour scales for `ggplot2` plots 
 * Build README with Rmarkdown
 * Monitor test coverage
 * Add DOI badge
