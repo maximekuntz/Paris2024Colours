@@ -4,7 +4,7 @@
 \alias{paris2024_palette}
 \title{Paris 2024 palette generator}
 \usage{
-paris2024_palette(name, n, type = c("discrete", "continuous"))
+paris2024_palette(name, n, type = c("discrete", "continuous"), reverse = FALSE)
 }
 \arguments{
 \item{name}{Name of the colour palette. Options are \code{Logo},
@@ -18,6 +18,8 @@ can be used as a discrete palette. To use more, use a continuous palette.}
 interpolates between colors to create a scale of values. If omitted, function
 assumes continuous if n > length of palette, and discrete if n < length of
 palette.}
+
+\item{reverse}{Whether to reverse colour palette (TRUE) or not (FALSE, default).}
 }
 \value{
 A vector of colours.
@@ -29,4 +31,5 @@ Paris 2024 palette generator
 paris2024_palette("GamesLook", n = 6, type = "continuous")
 paris2024_palette("Logo", 2)
 paris2024_palette("OlympicRings")
+paris2024_palette("OlympicRings", reverse = TRUE)
 }
