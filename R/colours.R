@@ -10,5 +10,6 @@ paris2024_palettes <- list(
   Impact2024 = c("#00004D", "#3EDE8E", "#006AFF"),
   Generation2024 = c("#00004D", "#FAB900", "#006AFF"),
   TerreDeJeux = c("#00004D", "#FF5757", "#006AFF"),
-  Tickets = c("#331362", "#FBA9CB", "#259EDD", "#022366", "#A8B2DE")
+  Tickets = c("#331362", "#FBA9CB", "#259EDD", "#022366", "#A8B2DE"),
+  Flame = c("#560047", "#FF5757", "#FBA9CB", "#D7C378")
 )

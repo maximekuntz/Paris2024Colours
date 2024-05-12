@@ -75,3 +75,7 @@ paris2024_palette("TerreDeJeux")
 ```{r tickets}
 paris2024_palette("Tickets")
 ```
+
+```{r flame}
+paris2024_palette("Flame")
+```

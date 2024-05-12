@@ -39,7 +39,7 @@ library("Paris2024Colours")
 # See all palettes
 names(paris2024_palettes)
 #> [1] "Logo"           "OlympicRings"   "GamesLook"      "Impact2024"    
-#> [5] "Generation2024" "TerreDeJeux"    "Tickets"
+#> [5] "Generation2024" "TerreDeJeux"    "Tickets"        "Flame"
 ```
 
 ## Palettes
@@ -85,3 +85,9 @@ paris2024_palette("Tickets")
 ```
 
 <img src="man/figures/README-tickets-1.png" width="100%" />
+
+``` r
+paris2024_palette("Flame")
+```
+
+<img src="man/figures/README-flame-1.png" width="100%" />
