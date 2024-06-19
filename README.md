@@ -7,6 +7,7 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/Paris2024Colours)](https://CRAN.R-project.org/package=Paris2024Colours)
+[![](https://img.shields.io/badge/DOI-10.32614/CRAN.package.Paris2024Colours-1f57b6?style=flat&link=https://doi.org/10.32614/CRAN.package.Paris2024Colours)](https://doi.org/10.32614/CRAN.package.Paris2024Colours)
 <!-- badges: end -->
 
 Palettes inspired by Paris 2024 Olympic and Paralympic Games.

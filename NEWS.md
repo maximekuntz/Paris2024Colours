@@ -5,6 +5,7 @@
 * Add option to reverse colour palette
 * Build README with Rmarkdown
 * Monitor test coverage
+* Add DOI badge
 
 # Paris2024Colours 0.1.2
 
