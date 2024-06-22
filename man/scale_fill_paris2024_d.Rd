@@ -8,8 +8,9 @@ scale_fill_paris2024_d(name, reverse = FALSE, ...)
 }
 \arguments{
 \item{name}{Name of the colour palette. Options are \code{Logo},
-\code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
-\code{Impact2024}, \code{TerreDeJeux}, \code{Tickets} and \code{Flame}.}
+\code{OlympicRings}, \code{ParalympicAgitos}, \code{GamesLook},
+\code{Generation2024}, \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets}
+and \code{Flame}.}
 
 \item{reverse}{Whether to reverse colour palette (TRUE) or not (FALSE,
 default).}

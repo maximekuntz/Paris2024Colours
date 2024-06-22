@@ -39,8 +39,9 @@ library("Paris2024Colours")
 
 # See all palettes
 names(paris2024_palettes)
-#> [1] "Logo"           "OlympicRings"   "GamesLook"      "Impact2024"    
-#> [5] "Generation2024" "TerreDeJeux"    "Tickets"        "Flame"
+#> [1] "Logo"             "OlympicRings"     "ParalympicAgitos" "GamesLook"       
+#> [5] "Impact2024"       "Generation2024"   "TerreDeJeux"      "Tickets"         
+#> [9] "Flame"
 ```
 
 ## Palettes
@@ -56,6 +57,12 @@ paris2024_palette("OlympicRings")
 ```
 
 <img src="man/figures/README-olympic_rings-1.png" width="100%" />
+
+``` r
+paris2024_palette("ParalympicAgitos")
+```
+
+<img src="man/figures/README-paralympic_agitos-1.png" width="100%" />
 
 ``` r
 paris2024_palette("GamesLook")

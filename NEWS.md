@@ -1,5 +1,7 @@
 # Paris2024Colours (development version)
 
+* Add new palette: ParalympicAgitos
+
 # Paris2024Colours 0.2.0
 
 * Modify palette GamesLook
