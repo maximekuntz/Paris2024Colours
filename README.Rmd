@@ -57,6 +57,10 @@ paris2024_palette("Logo")
 paris2024_palette("OlympicRings")
 ```
 
+```{r paralympic_agitos}
+paris2024_palette("ParalympicAgitos")
+```
+
 ```{r games_look}
 paris2024_palette("GamesLook")
 ```

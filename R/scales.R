@@ -7,8 +7,9 @@
 #' \code{\link{scale_fill_paris2024_c}} for continuous scales.
 #'
 #' @param name Name of the colour palette. Options are \code{Logo},
-#' \code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
-#' \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets} and \code{Flame}.
+#' \code{OlympicRings}, \code{ParalympicAgitos}, \code{GamesLook},
+#' \code{Generation2024}, \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets}
+#' and \code{Flame}.
 #' @param reverse Whether to reverse colour palette (TRUE) or not (FALSE,
 #' default).
 #' @param ... Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}
@@ -53,8 +54,9 @@ scale_color_paris2024_d <- scale_colour_paris2024_d
 #' \code{\link{scale_fill_paris2024_c}} for continuous scales.
 #'
 #' @param name Name of the colour palette. Options are \code{Logo},
-#' \code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
-#' \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets} and \code{Flame}.
+#' \code{OlympicRings}, \code{ParalympicAgitos}, \code{GamesLook},
+#' \code{Generation2024}, \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets}
+#' and \code{Flame}.
 #' @param reverse Whether to reverse colour palette (TRUE) or not (FALSE,
 #' default).
 #' @param ... Other arguments passed on to
@@ -96,8 +98,9 @@ scale_color_paris2024_c <- scale_colour_paris2024_c
 #' \code{\link{scale_fill_paris2024_c}} for continuous scales.
 #'
 #' @param name Name of the colour palette. Options are \code{Logo},
-#' \code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
-#' \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets} and \code{Flame}.
+#' \code{OlympicRings}, \code{ParalympicAgitos}, \code{GamesLook},
+#' \code{Generation2024}, \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets}
+#' and \code{Flame}.
 #' @param reverse Whether to reverse colour palette (TRUE) or not (FALSE,
 #' default).
 #' @param ... Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}
@@ -138,8 +141,9 @@ scale_fill_paris2024_d <- function(name, reverse = FALSE, ...) {
 #' \code{\link{scale_fill_paris2024_c}} for continuous scales.
 #'
 #' @param name Name of the colour palette. Options are \code{Logo},
-#' \code{OlympicRings}, \code{GamesLook}, \code{Generation2024},
-#' \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets} and \code{Flame}.
+#' \code{OlympicRings}, \code{ParalympicAgitos}, \code{GamesLook},
+#' \code{Generation2024}, \code{Impact2024}, \code{TerreDeJeux}, \code{Tickets}
+#' and \code{Flame}.
 #' @param reverse Whether to reverse colour palette (TRUE) or not (FALSE,
 #' default).
 #' @param ... Other arguments passed on to
