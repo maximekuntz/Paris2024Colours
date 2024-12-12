@@ -1,5 +1,6 @@
 # Paris2024Colours (development version)
 
+* Add a `ggplot2` theme
 * Add new palette: ParalympicAgitos
 
 # Paris2024Colours 0.2.0

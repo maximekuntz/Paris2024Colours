@@ -39,9 +39,9 @@ library("Paris2024Colours")
 
 # See all palettes
 names(paris2024_palettes)
-#> [1] "Logo"             "OlympicRings"     "ParalympicAgitos" "GamesLook"       
-#> [5] "Impact2024"       "Generation2024"   "TerreDeJeux"      "Tickets"         
-#> [9] "Flame"
+#>  [1] "Logo"             "OlympicRings"     "ParalympicAgitos" "GamesLook"       
+#>  [5] "LookDesJeux1"     "LookDesJeux2"     "LookDesJeux3"     "Impact2024"      
+#>  [9] "Generation2024"   "TerreDeJeux"      "Tickets"          "Flame"
 ```
 
 ## Palettes
@@ -99,3 +99,53 @@ paris2024_palette("Flame")
 ```
 
 <img src="man/figures/README-flame-1.png" width="100%" />
+
+## Theme
+
+Apply a theme to your {ggplot2} plot with `theme_paris2024_look()` (or
+even have more configuration parameters with `theme_paris2024()`).
+
+``` r
+library(ggplot2)
+
+data(mpg, package = "ggplot2")
+
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() +
+  labs(
+    title = "A TITLE",
+    subtitle = "A SUBTITLE",
+    caption = "A caption"
+  ) +
+  theme_paris2024_look()
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): famille de
+#> police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): famille de
+#> police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): famille de
+#> police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): famille de
+#> police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> famille de police introuvable dans la base de données des polices Windows
+```
+
+<img src="man/figures/README-theme-1.png" width="100%" />

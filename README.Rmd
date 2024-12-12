@@ -84,3 +84,22 @@ paris2024_palette("Tickets")
 ```{r flame}
 paris2024_palette("Flame")
 ```
+
+## Theme
+
+Apply a theme to your {ggplot2} plot with `theme_paris2024_look()` (or even have more configuration parameters with `theme_paris2024()`).
+
+```{r theme}
+library(ggplot2)
+
+data(mpg, package = "ggplot2")
+
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() +
+  labs(
+    title = "A TITLE",
+    subtitle = "A SUBTITLE",
+    caption = "A caption"
+  ) +
+  theme_paris2024_look()
+```
